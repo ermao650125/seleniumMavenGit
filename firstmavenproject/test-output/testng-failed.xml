@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite One]">
+  <test thread-count="5" name="Test five(failed)">
+    <classes>
+      <class name="Wait.waitForText">
+        <methods>
+          <include name="aftertest"/>
+          <include name="test"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- Wait.waitForText -->
+      <class name="Wait.waitForAlert">
+        <methods>
+          <include name="aftertest"/>
+          <include name="test"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- Wait.waitForAlert -->
+    </classes>
+  </test> <!-- Test five(failed) -->
+</suite> <!-- Failed suite [Suite One] -->

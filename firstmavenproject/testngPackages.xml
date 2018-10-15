@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+   <test name="to mutiple class from mutiple package" >
+  <classes>
+   <class name="TestNGOnePack.ClassOne" />
+   <class name="TestNGTwoPack.ClassTwo" />
+   <class name="TestNGThreePack.ClassOne" />
+   <class name="TestNGThreePack.ClassTwo" />  
+  </classes>
+   </test> 
+   <test name="Including mutiple packages" >
+  <packages>
+   <package name="TestNGTwoPack" />
+   <package name="TestNGThreePack" />
+  </packages>
+ </test> 
+ 
+    <test name="Log4j" >
+  <packages>
+      <package name="Log4jPractice" />
+  </packages>
+ </test> 
+</suite>

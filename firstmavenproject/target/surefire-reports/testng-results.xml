@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="27" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Example test run (1)" duration-ms="7261" started-at="2018-10-12T03:58:24Z" finished-at="2018-10-12T03:58:31Z">
+    <groups>
+    </groups>
+    <test name="to mutiple class from mutiple package" duration-ms="3533" started-at="2018-10-12T03:58:24Z" finished-at="2018-10-12T03:58:27Z">
+      <class name="TestNGOnePack.ClassOne">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:TestNGOnePack.ClassOne@5a61f5df]" name="testmethodone" duration-ms="36" started-at="2018-10-12T03:58:24Z" finished-at="2018-10-12T03:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+      </class> <!-- TestNGOnePack.ClassOne -->
+      <class name="TestNGThreePack.ClassTwo">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:TestNGThreePack.ClassTwo@52af6cff]" name="testmethodone" duration-ms="1696" started-at="2018-10-12T03:58:26Z" finished-at="2018-10-12T03:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+      </class> <!-- TestNGThreePack.ClassTwo -->
+      <class name="TestNGThreePack.ClassOne">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:TestNGThreePack.ClassOne@531be3c5]" name="testmethodone" duration-ms="9" started-at="2018-10-12T03:58:26Z" finished-at="2018-10-12T03:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+      </class> <!-- TestNGThreePack.ClassOne -->
+      <class name="TestNGTwoPack.ClassTwo">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:TestNGTwoPack.ClassTwo@3551a94]" name="testmethodone" duration-ms="1789" started-at="2018-10-12T03:58:24Z" finished-at="2018-10-12T03:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+      </class> <!-- TestNGTwoPack.ClassTwo -->
+    </test> <!-- to mutiple class from mutiple package -->
+    <test name="Including mutiple packages" duration-ms="3702" started-at="2018-10-12T03:58:27Z" finished-at="2018-10-12T03:58:31Z">
+      <class name="TestNGTwoPack.ClassOne">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:TestNGTwoPack.ClassOne@3dd3bcd]" name="testmethodone" duration-ms="8" started-at="2018-10-12T03:58:27Z" finished-at="2018-10-12T03:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+      </class> <!-- TestNGTwoPack.ClassOne -->
+      <class name="TestNGThreePack.ClassTwo">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:TestNGThreePack.ClassTwo@153f5a29]" name="testmethodone" duration-ms="1601" started-at="2018-10-12T03:58:29Z" finished-at="2018-10-12T03:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+      </class> <!-- TestNGThreePack.ClassTwo -->
+      <class name="TestNGThreePack.ClassOne">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:TestNGThreePack.ClassOne@26f67b76]" name="testmethodone" duration-ms="6" started-at="2018-10-12T03:58:27Z" finished-at="2018-10-12T03:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+      </class> <!-- TestNGThreePack.ClassOne -->
+      <class name="TestNGTwoPack.ClassTwo">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:TestNGTwoPack.ClassTwo@97e1986]" name="testmethodone" duration-ms="2083" started-at="2018-10-12T03:58:27Z" finished-at="2018-10-12T03:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+      </class> <!-- TestNGTwoPack.ClassTwo -->
+    </test> <!-- Including mutiple packages -->
+    <test name="Log4j" duration-ms="0" started-at="2018-10-12T03:58:31Z" finished-at="2018-10-12T03:58:31Z">
+      <class name="TestNGTwoPack.ClassOne">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGTwoPack.ClassOne@3dd3bcd]" name="setup" is-config="true" duration-ms="12684" started-at="2018-10-12T03:58:11Z" finished-at="2018-10-12T03:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGTwoPack.ClassOne@3dd3bcd]" name="tearDown" is-config="true" duration-ms="675" started-at="2018-10-12T03:58:31Z" finished-at="2018-10-12T03:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTwoPack.ClassOne -->
+    </test> <!-- Log4j -->
+  </suite> <!-- Example test run (1) -->
+  <suite name="Example test run" duration-ms="150350" started-at="2018-10-12T03:55:25Z" finished-at="2018-10-12T03:57:55Z">
+    <groups>
+    </groups>
+    <test name="Simple Test" duration-ms="150350" started-at="2018-10-12T03:55:25Z" finished-at="2018-10-12T03:57:55Z">
+      <class name="Wait.waitForElementInvisible">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:Wait.waitForElementInvisible@79b4d0f]" name="beforetest" is-config="true" duration-ms="20108" started-at="2018-10-12T03:56:32Z" finished-at="2018-10-12T03:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Wait.waitForElementInvisible@79b4d0f]" name="test" duration-ms="6938" started-at="2018-10-12T03:56:52Z" finished-at="2018-10-12T03:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:Wait.waitForElementInvisible@79b4d0f]" name="aftertest" is-config="true" duration-ms="667" started-at="2018-10-12T03:56:59Z" finished-at="2018-10-12T03:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Wait.waitForElementInvisible -->
+      <class name="Wait.implicitWait">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:Wait.implicitWait@3cda1055]" name="openbrowser" is-config="true" duration-ms="20549" started-at="2018-10-12T03:55:25Z" finished-at="2018-10-12T03:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Wait.implicitWait@3cda1055]" name="test" duration-ms="111" started-at="2018-10-12T03:55:45Z" finished-at="2018-10-12T03:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:Wait.implicitWait@3cda1055]" name="aftertest" is-config="true" duration-ms="0" started-at="2018-10-12T03:55:46Z" finished-at="2018-10-12T03:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Wait.implicitWait -->
+      <class name="Wait.waitForElementVisible">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:Wait.waitForElementVisible@6b2fad11]" name="beforetest" is-config="true" duration-ms="14737" started-at="2018-10-12T03:56:59Z" finished-at="2018-10-12T03:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Wait.waitForElementVisible@6b2fad11]" name="test" duration-ms="13013" started-at="2018-10-12T03:57:14Z" finished-at="2018-10-12T03:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:Wait.waitForElementVisible@6b2fad11]" name="aftertest" is-config="true" duration-ms="711" started-at="2018-10-12T03:57:27Z" finished-at="2018-10-12T03:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Wait.waitForElementVisible -->
+      <class name="Wait.waitForText">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:Wait.waitForText@79698539]" name="openbrowser" is-config="true" duration-ms="14750" started-at="2018-10-12T03:57:28Z" finished-at="2018-10-12T03:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Wait.waitForText@79698539]" name="test" duration-ms="11828" started-at="2018-10-12T03:57:43Z" finished-at="2018-10-12T03:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:Wait.waitForText@79698539]" name="aftertest" is-config="true" duration-ms="644" started-at="2018-10-12T03:57:55Z" finished-at="2018-10-12T03:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Wait.waitForText -->
+      <class name="Wait.waitForAlert">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:Wait.waitForAlert@7a5d012c]" name="beforetest" is-config="true" duration-ms="17111" started-at="2018-10-12T03:55:46Z" finished-at="2018-10-12T03:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Wait.waitForAlert@7a5d012c]" name="test" duration-ms="4882" started-at="2018-10-12T03:56:03Z" finished-at="2018-10-12T03:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:Wait.waitForAlert@7a5d012c]" name="aftertest" is-config="true" duration-ms="727" started-at="2018-10-12T03:56:08Z" finished-at="2018-10-12T03:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Wait.waitForAlert -->
+      <class name="Wait.waitForElement">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:Wait.waitForElement@3fb6a447]" name="openbrowser" is-config="true" duration-ms="13596" started-at="2018-10-12T03:56:08Z" finished-at="2018-10-12T03:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Wait.waitForElement@3fb6a447]" name="test" duration-ms="9223" started-at="2018-10-12T03:56:22Z" finished-at="2018-10-12T03:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:Wait.waitForElement@3fb6a447]" name="aftertest" is-config="true" duration-ms="696" started-at="2018-10-12T03:56:31Z" finished-at="2018-10-12T03:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Wait.waitForElement -->
+    </test> <!-- Simple Test -->
+  </suite> <!-- Example test run -->
+  <suite name="Example test run (0)" duration-ms="15941" started-at="2018-10-12T03:57:55Z" finished-at="2018-10-12T03:58:11Z">
+    <groups>
+    </groups>
+    <test name="Simple Test" duration-ms="15941" started-at="2018-10-12T03:57:55Z" finished-at="2018-10-12T03:58:11Z">
+      <class name="com.sample.firstmavenproject.GoogleHomePageTest">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.sample.firstmavenproject.GoogleHomePageTest@1936f0f5]" name="openbrowser" is-config="true" duration-ms="15283" started-at="2018-10-12T03:57:55Z" finished-at="2018-10-12T03:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:com.sample.firstmavenproject.GoogleHomePageTest@1936f0f5]" name="testmethodone" duration-ms="27" started-at="2018-10-12T03:58:11Z" finished-at="2018-10-12T03:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.sample.firstmavenproject.GoogleHomePageTest@1936f0f5]" name="closebrowser" is-config="true" duration-ms="629" started-at="2018-10-12T03:58:11Z" finished-at="2018-10-12T03:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.sample.firstmavenproject.GoogleHomePageTest -->
+    </test> <!-- Simple Test -->
+  </suite> <!-- Example test run (0) -->
+</testng-results>

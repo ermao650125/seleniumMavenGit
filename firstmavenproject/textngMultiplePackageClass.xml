@@ -1,0 +1,34 @@
+<suite name="Suite One">
+ <test name="Test One" >
+  <packages>
+   <package name="TestNGTwoPack" />
+   <package name="TestNGThreePack" />
+  </packages>
+ </test> 
+  <test name="Test two" >
+  <classes>
+   <class name="TestNGOnePack.ClassOne" />  
+  </classes>
+ </test> 
+ <test name="Test thre" >
+  <classes>
+   <class name="TestNGOnePack.ClassTwo" /> 
+  </classes>
+ </test> 
+ 
+ <test name="Test four" >
+  <classes>
+   <class name="TestNGOnePack.ClassOne" />
+   <class name="TestNGTwoPack.ClassTwo" />
+   <class name="TestNGThreePack.ClassOne" />
+   <class name="TestNGThreePack.ClassTwo" />  
+  </classes>
+ </test> 
+ 
+ <test name="Test five" >
+  <packages>
+   <package name=".*" />   
+  </packages>
+ </test> 
+ 
+</suite>

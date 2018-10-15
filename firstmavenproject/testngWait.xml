@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+  <test name="Simple Test">
+    <classes>
+      <class name="Wait.implicitWait"/>
+      <class name="Wait.waitForAlert"/>
+      <class name="Wait.waitForElement"/>
+      <class name="Wait.waitForElementInvisible"/>
+      <class name="Wait.waitForElementVisible"/>
+      <class name="Wait.waitForText"/>
+    </classes>
+  </test>
+</suite>
